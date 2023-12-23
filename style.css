@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "yourBeloved";
+  src: url(assets/your_beloved.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "coolvetica";
+  src: url(assets/coolvetica.otf) format("opentype");
+}
+
+.nav-text{
+    font-size: 20px;
+    font-family: coolvetica;
+    color:white;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.overlay-text {
+    position: absolute;
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+  }
+
+  h1{
+    font-size: 75px;
+    font-family: yourBeloved;
+    font-weight: bold;
+    color: rgb(227, 167, 54);
+  }
+
+  .title-button{
+    font-family: coolvetica;
+    font-size: 30px;
+    background-color: rgb(227, 167, 54);
+    border-radius: 20px;
+  }
+
+.nav-link:hover{
+  color: rgb(227, 167, 54);
+}
+
+h2 {
+  font-size: 40px;
+  font-family: coolvetica;
+}
+
+h3{
+  font-size: 20px;
+  font-family: coolvetica;
+  color:rgb(0, 0, 0);
+}
+
+.orange-chair-button{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(227, 167, 54);
+  height: 50px;
+  width: 20%;
+  border: 3px solid rgb(227, 167, 54);
+  background-color: #ffffff00;
+  
+}
+
+.orange-chair-button:hover{
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
